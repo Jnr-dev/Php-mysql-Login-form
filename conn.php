@@ -1,0 +1,15 @@
+<?php 
+
+$host = "localhost";
+$username = "root";
+$password = "";
+
+$db_name = "php_login";
+
+$conn = mysqli_connect($host, $username, $password, $db_name);
+
+if (!$conn) {
+    echo "Database connection failed";
+}else{
+    
+}
